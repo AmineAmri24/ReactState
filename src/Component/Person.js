@@ -11,6 +11,8 @@ export default class Person extends Component {
         }
         this.state = {count:0}
     }
+
+    // this is when the counter starts to count
   componentDidMount(){
       setInterval(()=>{
           this.setState(prevState=>({
